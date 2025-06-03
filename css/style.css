@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #2c3e50;
+}
+
+p {
+  color: #555;
+}
+
+/* Hero section personalizada */
+header.bg-dark {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  color: #fff;
+  padding: 100px 0;
+  text-shadow: 2px 2px 4px #000;
+}
+
+header.bg-dark h1 {
+  font-size: 3rem;
+}
+
+header.bg-dark p {
+  font-size: 1.3rem;
+}
+
+/* Tarjetas de destinos */
+.card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  color: #2980b9;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+/* Botones personalizados */
+.btn-primary {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+.btn-primary:hover {
+  background-color: #1f5c85;
+  border-color: #1f5c85;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}
+
+footer a img:hover {
+  opacity: 0.7;
+}
+
+/* Formulario */
+form label {
+  font-weight: 600;
+}
+
+form input, form select {
+  border-radius: 0.25rem;
+}
+
+form button {
+  background-color: #2980b9;
+  border: none;
+}
+
+form button:hover {
+  background-color: #1f5c85;
+}
+
+/* Responsive hero */
+@media (max-width: 768px) {
+  header.bg-dark h1 {
+    font-size: 2rem;
+  }
+  header.bg-dark p {
+    font-size: 1rem;
+  }
+}
