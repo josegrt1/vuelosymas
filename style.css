@@ -1,0 +1,431 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #1e1e2f;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+section {
+  padding: 2rem 0;
+}
+.navbar .nav-link {
+  color: #1e1e2f;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+.navbar .nav-link:hover {
+  color: #4da1ff;
+}
+.navbar .navbar-brand {
+  font-weight: 700;
+  color: #4da1ff;
+}
+.hero {
+  background: url('img/hero.jpg') center/cover no-repeat;
+  height: 80vh;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.hero h1 {
+  font-size: 3rem;
+}
+.hero .btn {
+  background: linear-gradient(45deg, #4da1ff, #ff7e67);
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.hero .btn:hover {
+  opacity: 0.85;
+}
+.card {
+  border: none;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+.card .card-body {
+  background-color: #f8f9fa;
+}
+.card .card-title {
+  color: #4da1ff;
+  font-weight: 600;
+}
+.card .card-text {
+  color: #6c757d;
+}
+#blog article {
+  border-radius: 0.75rem;
+  transition: box-shadow 0.3s ease;
+}
+#blog article:hover {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+#blog article h5 {
+  color: #4da1ff;
+  font-weight: 600;
+}
+footer {
+  background-color: #1e1e2f;
+  color: white;
+  font-size: 0.9rem;
+}
+footer a {
+  color: white;
+  transition: color 0.3s ease;
+}
+footer a:hover {
+  color: #ff7e67;
+}
+.card-img-top {
+  aspect-ratio: 16/9;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.75rem 0.75rem 0 0;
+}
+/* Gradiente del botón principal */
+.btn-gradient {
+  background: linear-gradient(45deg, #4da1ff, #ff7e67);
+  border: none;
+  color: white;
+  transition: all 0.3s ease;
+  border-radius: 0.75rem;
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Inputs más suaves */
+input.form-control,
+select.form-select {
+  border-radius: 0.6rem;
+  border: 1px solid #ced4da;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input.form-control:focus,
+select.form-select:focus {
+  border-color: #4da1ff;
+  box-shadow: 0 0 0 0.2rem rgba(77, 161, 255, 0.25);
+}
+/* ────────────────────────────────────────────────
+   PLUS LIVE – Estilos específicos
+   (puedes dejarlos al final de style.css)
+──────────────────────────────────────────────── */
+
+/* Tarjetas informativas */
+#plus-cards .card {
+  border: none;
+  border-radius: 0.9rem;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#plus-cards .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.15);
+}
+
+#plus-cards .card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Títulos dentro de tarjetas */
+#plus-cards .card-title {
+  color: #4da1ff;
+  font-weight: 600;
+}
+
+/* Formulario login */
+section form .form-control {
+  border-radius: 0.7rem;
+  border: 1px solid #ced4da;
+  padding: 0.65rem 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+section form .form-control:focus {
+  border-color: #4da1ff;
+  box-shadow: 0 0 0 0.18rem rgba(77, 161, 255, 0.25);
+}
+
+/* Botón principal y variantes */
+.btn-primary,
+.btn-gradient,
+.btn-outline-primary {
+  border-radius: 0.75rem;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+/* Gradiente corporativo (reutilizable) */
+.btn-gradient {
+  background: linear-gradient(45deg, #4da1ff, #ff7e67);
+  color: #fff;
+  border: none;
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Botón outline más suave */
+.btn-outline-primary {
+  color: #4da1ff;
+  border-color: #4da1ff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #4da1ff;
+  color: #fff;
+}
+
+/* Encabezados de secciones */
+h1, h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/* Ajustes de sombra y radio en bloques blancos */
+.bg-white.rounded {
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1.25rem rgba(0,0,0,.08);
+}
+/* ───────────────
+   Fondo gradiente Plus
+────────────────── */
+.plus-gradient {
+  background: linear-gradient(120deg, #4da1ff, #ff7e67);
+  color: white;
+}
+
+.plus-gradient .form-control {
+  background-color: #fff;
+  color: #1e1e2f;
+}
+
+.plus-gradient .form-label,
+.plus-gradient .form-text {
+  color: white;
+}
+
+.plus-gradient .btn-primary {
+  background-color: #fff;
+  color: #4da1ff;
+  font-weight: 600;
+}
+
+.plus-gradient .btn-primary:hover {
+  background-color: #f1f1f1;
+}
+/* Video de fondo */
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  opacity: 0.25; /* Puedes ajustar la opacidad */
+  filter: brightness(0.7);
+}
+/* SOLO para buscar.html — cuerpo transparente */
+body.buscar-page {
+  background-color: transparent;
+}
+.form-wrapper {
+  position: relative;
+  z-index: 2;
+}
+/* ====== RESERVA ====== */
+
+/* Hero con gradiente sutil */
+.reserva-hero {
+  min-height: 40vh;
+  background: linear-gradient(135deg, #4da1ff 0%, #ff7e67 100%);
+  padding: 3rem 0;
+}
+
+.form-wrapper {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 1rem;
+  box-shadow: 0 0.75rem 1.5rem rgba(0,0,0,.1);
+  max-width: 800px;
+}
+
+/* Icono del botón */
+.btn-gradient i {
+  margin-right: .4rem;
+}
+/* ===========  RESERVA.HTML  =========== */
+
+/* Fondo general oscuro-azul */
+body.reserva-page {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* HERO degradado */
+.reserva-hero {
+  min-height: 40vh;
+  background: linear-gradient(135deg, #003e87 0%, #1452c2 50%, #187fe5 100%);
+  padding: 4rem 0;
+}
+
+/* Formulario (tarjeta blanca) */
+.form-wrapper{
+  background: rgba(255,255,255,.95);
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.25);
+}
+
+/* Inputs / botón */
+.form-wrapper .form-control{
+  border-radius: .6rem;
+}
+.btn-gradient{
+  background: linear-gradient(45deg,#4da1ff,#ff7e67);
+  border:none;color:#fff;border-radius:.6rem;
+  transition:all .25s ease;
+}
+.btn-gradient:hover{opacity:.9;transform:translateY(-2px);}
+
+/* Tarjetas informativas */
+.reserva-page .card{
+  border:none;border-radius:.9rem;overflow:hidden;
+  transition:transform .3s ease, box-shadow .3s ease;
+}
+.reserva-page .card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 .75rem 2rem rgba(0,0,0,.25);
+}
+.reserva-page .card-img-top{
+  height:190px;object-fit:cover;
+}
+.reserva-page .card-title{
+  color:#4da1ff;font-weight:600;
+}
+/* === BUSCAR.HTML =============================================== */
+
+/* Video full-screen detrás de todo */
+.bg-video{
+  position:fixed;
+  top:0;left:0;
+  min-width:100%;min-height:100%;
+  object-fit:cover;
+  filter:brightness(.45);
+  z-index:-1;
+}
+
+/* El cuerpo no debe tener fondo que tape el video */
+body.buscar-page{
+  background:transparent;
+  color:#fff;
+  font-family:'Poppins',sans-serif;
+}
+
+/* Tarjeta de vidrio (glass effect) */
+.glass-card{
+  background:rgba(255,255,255,.2);
+  backdrop-filter:blur(10px);
+  border-radius:1rem;
+  box-shadow:0 1rem 2rem rgba(0,0,0,.35);
+}
+
+/* Botón gradiente reutilizado */
+.btn-gradient{
+  background:linear-gradient(45deg,#4da1ff,#ff7e67);
+  border:none;
+  color:#fff;
+  border-radius:.7rem;
+  transition:all .25s ease;
+}
+.btn-gradient:hover{opacity:.9;transform:translateY(-2px);}
+.servicios-adicionales {
+  .servicio-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #f8f9fa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    img {
+      max-width: 60%;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  p {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+}
+/* Formulario en plus.html */
+.plus-gradient .bg-white {
+  color: #000; /* texto principal en negro */
+}
+
+.plus-gradient .bg-white .form-label,
+.plus-gradient .bg-white input::placeholder,
+.plus-gradient .bg-white a {
+  color: #000 !important; /* asegura que los links y placeholders sean negros */
+}
+/* ===== MINI sección Plus ===== */
+.plus-mini {
+  background-color: #ffffff;
+}
+
+.plus-circle {
+  width: 90px;
+  height: 90px;
+  background-color: #f8f9fa;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,.08);
+  transition: transform .3s ease;
+}
+
+.plus-circle:hover {
+  transform: scale(1.08);
+}
+
+.plus-mini p {
+  margin-top: .5rem;
+  font-size: .95rem;
+}

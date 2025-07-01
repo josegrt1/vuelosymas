@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Información | Vuelos y Más</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="info-page bg-light">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-white py-3 shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Vuelos y Más</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="buscar.html">Buscar</a></li>
+          <li class="nav-item"><a class="nav-link active" href="info.html">Información</a></li>
+          <li class="nav-item"><a class="nav-link" href="plus.html">Plus Live</a></li>
+          <li class="nav-item"><a class="nav-link" href="reserva.html">Tu Reserva</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero corto -->
+  <header class="py-5 text-center text-white" style="background: linear-gradient(45deg, #4da1ff, #6fc0ff);">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Centro de Información</h1>
+      <p class="lead">Te acompañamos en cada paso de tu viaje.</p>
+    </div>
+  </header>
+
+  <main class="py-5">
+    <div class="container">
+      <div class="row g-4 mb-5">
+        <!-- Contacto -->
+        <div class="col-md-6">
+          <div class="p-4 bg-white rounded shadow-sm h-100">
+            <h4 class="text-primary mb-3"><i class="bi bi-telephone me-2"></i>Atención al Cliente</h4>
+            <p>Consultanos cualquier duda o reclamo, ¡estamos para ayudarte 24/7!</p>
+            <ul class="list-unstyled">
+              <li><strong>Teléfono:</strong> 0800 123 456</li>
+              <li><strong>Equipaje:</strong> reclamos@vuelosymas.com</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Ayuda -->
+        <div class="col-md-6">
+          <div class="p-4 bg-white rounded shadow-sm h-100">
+            <h4 class="text-primary mb-3"><i class="bi bi-question-circle me-2"></i>Centro de Ayuda</h4>
+            <p>Revisá requisitos de viaje, documentación y actualizaciones importantes.</p>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-whatsapp text-success me-2"></i>+54 9 11 1234 5678</li>
+              <li><i class="bi bi-facebook text-primary me-2"></i>/vuelosymas</li>
+              <li><i class="bi bi-instagram text-danger me-2"></i>@vuelosymas_ok</li>
+              <li><i class="bi bi-envelope me-2"></i>ayuda@vuelosymas.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Imagen decorativa -->
+<div class="text-center mt-5">
+  <img src="img/atencion.jpg" alt="Atención al cliente" class="img-fluid rounded shadow-sm mx-auto d-block" style="max-height: 300px;">
+</div>
+
+      <!-- Sección: Seguro de viaje -->
+<section class="bg-white text-center p-5 mt-5 rounded shadow-sm">
+  <h3 class="text-primary mb-4">
+    <i class="bi bi-shield-check me-2"></i>Seguro de Viaje
+  </h3>
+
+  <p class="lead mb-4">
+    Protegé tu experiencia: asistencia médica, cancelaciones y cobertura total de equipaje.
+  </p>
+
+  <div class="d-flex justify-content-center gap-5 flex-wrap">
+    <!-- Asistencia -->
+    <div>
+      <i class="bi bi-heart-pulse fs-1 text-danger"></i>
+      <p class="mt-2 fw-medium mb-0">Asistencia médica</p>
+    </div>
+
+    <!-- Cancelaciones -->
+    <div>
+      <i class="bi bi-x-octagon fs-1 text-warning"></i>
+      <p class="mt-2 fw-medium mb-0">Cancelaciones</p>
+    </div>
+
+    <!-- Equipaje protegido (nuevo ícono) -->
+    <div>
+      <i class="bi bi-bag-check-fill fs-1 text-info"></i>
+      <p class="mt-2 fw-medium mb-0">Equipaje protegido</p>
+    </div>
+  </div>
+
+  <a href="#" class="btn btn-outline-primary mt-4 fw-semibold px-4">Conocer más</a>
+</section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4 mt-5">
+    <div class="container text-center">
+      <p class="mb-1">&copy; 2025 Vuelos y Más. Todos los derechos reservados.</p>
+      <div>
+        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-white"><i class="bi bi-twitter-x"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal().reveal('.row > div', {
+      distance: '50px',
+      duration: 800,
+      easing: 'ease-out',
+      origin: 'bottom',
+      interval: 200
+    });
+
+    ScrollReveal().reveal('.img-fluid', {
+      origin: 'top',
+      delay: 300
+    });
+
+    ScrollReveal().reveal('section.bg-white', {
+      origin: 'bottom',
+      distance: '60px',
+      duration: 800,
+      delay: 400
+    });
+  </script>
+</body>
+</html>

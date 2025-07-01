@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explora el mundo con Vuelos y Más. Reserva vuelos, descubre destinos y accede a experiencias únicas." />
+    <title>Vuelos y Más</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light py-3 shadow-sm sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Vuelos y Más</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="buscar.html">Buscar</a></li>
+            <li class="nav-item"><a class="nav-link" href="info.html">Información</a></li>
+            <li class="nav-item"><a class="nav-link" href="plus.html">Plus Live</a></li>
+            <li class="nav-item"><a class="nav-link" href="reserva.html">Tu Reserva</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="hero d-flex align-items-center text-center text-white">
+      <div class="container">
+        <h1 class="display-4 fw-bold">Explora el mundo con Vuelos y Más</h1>
+        <p class="lead">Descubrí destinos increíbles y viví experiencias únicas.</p>
+        <a href="buscar.html" class="btn btn-primary mt-3">Comenzar</a>
+      </div>
+    </header>
+    <section class="py-5" id="destinos">
+      <div class="container">
+        <h2 class="text-center mb-4">Destinos Populares</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <img src="img/paris.jpg" class="card-img-top" alt="París" />
+              <div class="card-body">
+                <h5 class="card-title">París</h5>
+                <p class="card-text">La ciudad del amor te espera con sus luces y romanticismo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <img src="img/newyork.jpg" class="card-img-top" alt="Nueva York" />
+              <div class="card-body">
+                <h5 class="card-title">Nueva York</h5>
+                <p class="card-text">Vibrante, intensa y llena de oportunidades.</p>
+              </div>
+            </div>
+          </div>
+            <!-- ⬇️ Caribe (nuevo destino) -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <img src="img/elcaribe.jpg" class="card-img-top" alt="El Caribe" />
+          <div class="card-body">
+            <h5 class="card-title">El Caribe</h5>
+            <p class="card-text">Las famosas playas de Venezuela.</p>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- fin .row -->
+  </div>   <!-- fin .container -->
+</section>
+    </section>
+    <!-- ========== DISFRUTÁ AEROLÍNEAS PLUS ========== -->
+<section class="py-5 plus-mini bg-white">
+  <div class="container text-center">
+    <h2 class="mb-5 fw-semibold text-secondary">Disfrutá Aerolíneas Plus</h2>
+
+    <div class="row justify-content-center gy-4">
+      <!-- Canjeá millas -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <a href="plus.html" class="text-decoration-none text-dark">
+          <div class="plus-circle mx-auto mb-3">
+            <i class="bi bi-arrow-left-right fs-3 text-primary"></i>
+          </div>
+          <p class="fw-medium">Canjeá Millas</p>
+        </a>
+      </div>
+
+      <!-- Sumá millas -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <a href="plus.html" class="text-decoration-none text-dark">
+          <div class="plus-circle mx-auto mb-3">
+            <i class="bi bi-plus-lg fs-3 text-primary"></i>
+          </div>
+          <p class="fw-medium">Sumá Millas</p>
+        </a>
+      </div>
+
+      <!-- Promo Alamo -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <a href="plus.html" class="text-decoration-none text-dark">
+          <div class="plus-circle mx-auto mb-3">
+            <i class="bi bi-star-fill fs-3 text-primary"></i>
+          </div>
+          <p class="fw-medium">Promo Alamo</p>
+        </a>
+      </div>
+    </div>
+
+    <a href="plus.html" class="btn btn-primary px-4 py-2 fw-semibold mt-4">
+      Ingresá a tu cuenta
+    </a>
+  </div>
+</section>
+    <!-- ========== PAQUETES TURÍSTICOS ========== -->
+<section class="py-5 bg-light paquetes-section">
+  <div class="container">
+    <h2 class="text-center mb-5 text-dark fw-bold">Ofertas en paquetes turísticos para los mejores destinos</h2>
+    <div class="row g-4">
+      <!-- Paquete 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="img/iguazu.jpg" class="card-img-top" alt="Puerto Iguazú">
+          <div class="card-body">
+            <span class="badge bg-dark mb-2">8 DÍAS / 7 NOCHES</span>
+            <h6 class="text-muted">PAQUETE</h6>
+            <h5 class="card-title">Paquetes a Puerto Iguazú</h5>
+            <p><span class="badge bg-success me-1">8.8</span> ⭐⭐⭐⭐⭐</p>
+            <p class="small">Saliendo desde Buenos Aires<br>Hotel + Vuelo</p>
+            <div class="bg-light p-2 rounded text-center">
+              <small class="text-success">Ahorrás $100.786</small><br>
+              <small class="text-muted text-decoration-line-through">$527.542</small><br>
+              <strong class="fs-5">$426.756</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Podés duplicar este bloque y cambiar datos para más paquetes -->
+      <!-- Paquete 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="img/rio.jpg" class="card-img-top" alt="Rio de Janeiro">
+          <div class="card-body">
+            <span class="badge bg-dark mb-2">11 DÍAS / 10 NOCHES</span>
+            <h6 class="text-muted">PAQUETE</h6>
+            <h5 class="card-title">Paquetes a Rio de Janeiro</h5>
+            <p><span class="badge bg-success me-1">8.3</span> ⭐⭐⭐⭐</p>
+            <p class="small">Saliendo desde Buenos Aires<br>Hotel + Vuelo</p>
+            <div class="bg-light p-2 rounded text-center">
+              <small class="text-success">Ahorrás $38.549</small><br>
+              <small class="text-muted text-decoration-line-through">$543.246</small><br>
+              <strong class="fs-5">$504.697</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="img/madrid.jpg" class="card-img-top" alt="madrid">
+          <div class="card-body">
+            <span class="badge bg-dark mb-2">7 DÍAS / 6 NOCHES</span>
+            <h6 class="text-muted">PAQUETE</h6>
+            <h5 class="card-title">Paquetes a Madrid</h5>
+            <p><span class="badge bg-success me-1">8.0</span> ⭐⭐⭐⭐</p>
+            <p class="small">Saliendo desde Buenos Aires<br>Hotel + Vuelo</p>
+            <div class="bg-light p-2 rounded text-center">
+              <small class="text-success">Ahorrás $500.549</small><br>
+              <small class="text-muted text-decoration-line-through">$1.000.246</small><br>
+              <strong class="fs-5">$504.697</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="img/bariloche.jpg" class="card-img-top" alt="bariloche">
+          <div class="card-body">
+            <span class="badge bg-dark mb-2">8 DÍAS / 7 NOCHES</span>
+            <h6 class="text-muted">PAQUETE</h6>
+            <h5 class="card-title">Paquetes a bariloche</h5>
+            <p><span class="badge bg-success me-1">9.0</span> ⭐⭐⭐⭐</p>
+            <p class="small">Saliendo desde Buenos Aires<br>Hotel + Vuelo</p>
+            <div class="bg-light p-2 rounded text-center">
+              <small class="text-success">Ahorrás $50.549</small><br>
+              <small class="text-muted text-decoration-line-through">$400.246</small><br>
+              <strong class="fs-5">$350.697</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ========== SERVICIOS ADICIONALES ========== -->
+<section class="py-5 servicios-adicionales bg-white">
+  <div class="container text-center">
+    <h2 class="mb-5 fw-semibold text-secondary">Servicios Adicionales</h2>
+    <div class="row justify-content-center gy-4">
+      <!-- Servicio 1 -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <a href="info.html" class="text-decoration-none text-dark">
+          <div class="servicio-icon mx-auto mb-3">
+            <img src="img/equipaje.png" alt="Comprá equipaje" class="img-fluid" />
+          </div>
+          <p>Comprá equipaje</p>
+        </a>
+      </div>
+
+      <!-- Servicio 2 -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <a href="info.html" class="text-decoration-none text-dark">
+          <div class="servicio-icon mx-auto mb-3">
+            <img src="img/assistcard.png" alt="Assist Card" class="img-fluid" />
+          </div>
+          <p>Assist Card</p>
+        </a>
+      </div>
+
+      <!-- Servicio 3 -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <a href="info.html" class="text-decoration-none text-dark">
+          <div class="servicio-icon mx-auto mb-3">
+            <img src="img/booking.png" alt="Booking.com" class="img-fluid" />
+          </div>
+          <p>Booking.com</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="mt-4">
+      <a href="info.html" class="btn btn-primary px-4 py-2 fw-semibold">Conocé más servicios</a>
+    </div>
+  </div>
+</section>
+
+    <footer class="bg-dark text-white py-4">
+      <div class="container text-center">
+        <p class="mb-1">&copy; 2025 Vuelos y Más. Todos los derechos reservados.</p>
+        <div>
+          <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-twitter-x"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- ScrollReveal CDN -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+  /* Configuración global */
+  const sr = ScrollReveal({
+    distance: '60px',   // cuánto se mueve el elemento
+    duration: 1000,     // duración de la animación (ms)
+    easing: 'ease-out', // curva de la animación
+    reset: false        // true = vuelve a animar al hacer scroll hacia arriba
+  });
+
+  /* Animar secciones específicas ------------- */
+
+  /* Hero (desliza desde arriba) */
+  sr.reveal('.hero', { origin: 'top' });
+
+  /* Tarjetas de destinos (deslizan desde abajo,
+     con pequeño delay escalonado)              */
+  sr.reveal('#destinos .col-md-6', {
+    origin: 'bottom',
+    interval: 200       // 200 ms entre cada card
+  });
+
+  /* Artículos del blog (aparecen desde la izquierda) */
+  sr.reveal('#blog article', {
+    origin: 'left',
+    interval: 150
+  });
+</script>
+  </body>
+</html>
