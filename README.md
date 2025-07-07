@@ -6,7 +6,7 @@
 
 ## 🌐 Sitio en línea
 
-👉 [Ver sitio en Netlify] vhttps://vuelosymas.netlify.app/ 
+👉 [Ver sitio en Netlify] (https://vuelosymas.netlify.app/) 
 👉 [Repositorio en GitHub](https://github.com/josegrt1/vuelosymas)
 
 ---
@@ -74,7 +74,7 @@ Incluye múltiples secciones:
 
 El sitio fue desplegado exitosamente en Netlify.  
 Nombre del sitio: **vuelosymas-netlify**  
-Link: [https://vuelosymas-netlify.netlify.app](https://vuelosymas-netlify.netlify.app)
+Link: https://vuelosymas.netlify.app/
 
 ---
 
