@@ -81,7 +81,6 @@ Link: [https://vuelosymas-netlify.netlify.app](https://vuelosymas-netlify.netlif
 ## 🙌 Autor
 
 👤 José Rodríguez  
-📧 josegrt00@gmail.com
 
 ---
 
